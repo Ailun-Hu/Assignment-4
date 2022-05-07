@@ -94,9 +94,9 @@ class App extends React.Component {
       <div className="App">
         <h1>Welcome to React Router!</h1>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/debits" element={<Debits addDebit={this.addDebit} debits={this.state.debits} />} />
-          <Route path="/credits" element={<Credits addCredit={this.addCredit} credits={this.state.credits} />} />
+          <Route path="Assignment-4/" element={<Home />} />
+          <Route path="Assignment-4/debits" element={<Debits addDebit={this.addDebit} debits={this.state.debits} />} />
+          <Route path="Assignment-4/credits" element={<Credits addCredit={this.addCredit} credits={this.state.credits} />} />
         </Routes>
         <h3>{this.state.accountBalance}</h3>
       </div>
@@ -111,8 +111,8 @@ function Home() {
   return (
     <div>
       <h2>Welcome to the homepage!</h2>
-      <Link to="/debits">Debits</Link>
-      <Link to="/credits">Credits</Link>
+      <Link to="/Assignment-4/debits">Debits</Link>
+      <Link to="/Assignment-4/credits">Credits</Link>
     </div>
   );
 }

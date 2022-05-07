@@ -17,7 +17,7 @@ const Credits = (props) => {
              <input type="number" step="any" name="amount" />
              <button type="submit">Add Credit</button>
            </form>
-           <Link to="/">Home</Link>
+           <Link to="/Assignment-4">Home</Link>
     	</div>
 
     )
